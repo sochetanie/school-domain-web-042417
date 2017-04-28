@@ -40,7 +40,7 @@ describe 'School' do
       @school.add_student("Avi Flombaum", 10)
       @school.add_student("Jeff Baird", 10)
       @school.add_student("Blake Johnson", 7)
-
+      binding.pry
       expect(@school.grade(10)).to eq(["Avi Flombaum", "Jeff Baird"])
     end
   end
